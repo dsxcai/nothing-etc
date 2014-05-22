@@ -1,0 +1,21 @@
+deb http://free.nchc.org.tw/ubuntu/ trusty main restricted universe multiverse
+deb http://free.nchc.org.tw/ubuntu/ trusty-updates main restricted universe multiverse
+deb http://free.nchc.org.tw/ubuntu/ trusty-security main restricted universe multiverse
+deb http://security.ubuntu.com/ubuntu/ trusty-security main restricted universe multiverse
+
+deb http://archive.canonical.com/ubuntu trusty partner
+deb http://extras.ubuntu.com/ubuntu trusty main
+deb http://download.virtualbox.org/virtualbox/debian trusty contrib non-free
+
+deb http://dl.google.com/linux/chrome/deb/ stable main
+
+# Java
+deb http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main
+
+# Indicators
+deb http://ppa.launchpad.net/alexeftimie/ppa/ubuntu raring main
+
+# Grive Tools
+deb http://ppa.launchpad.net/thefanclub/grive-tools/ubuntu trusty main
+
+#function addkey { gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys $1; gpg --export --armor $1 | sudo apt-key add -; }

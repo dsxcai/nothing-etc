@@ -1,0 +1,21 @@
+deb http://free.nchc.org.tw/ubuntu/ saucy main restricted universe multiverse
+deb http://free.nchc.org.tw/ubuntu/ saucy-updates main restricted universe multiverse
+deb http://free.nchc.org.tw/ubuntu/ saucy-security main restricted universe multiverse
+deb http://security.ubuntu.com/ubuntu/ saucy-security main restricted universe multiverse
+
+deb http://archive.canonical.com/ubuntu saucy partner
+deb http://extras.ubuntu.com/ubuntu saucy main
+# deb http://download.virtualbox.org/virtualbox/debian saucy contrib non-free
+deb http://download.virtualbox.org/virtualbox/debian raring contrib non-free
+
+deb http://dl.google.com/linux/chrome/deb/ stable main
+# deb http://www.scootersoftware.com/ stable non-free
+
+# Java
+deb http://ppa.launchpad.net/webupd8team/java/ubuntu saucy main
+
+# Indicators
+# deb http://ppa.launchpad.net/alexeftimie/ppa/ubuntu saucy main
+deb http://ppa.launchpad.net/alexeftimie/ppa/ubuntu raring main
+
+#function addkey { gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys $1; gpg --export --armor $1 | sudo apt-key add -; }
